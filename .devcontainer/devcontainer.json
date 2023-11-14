@@ -1,0 +1,6 @@
+{
+    "image": "apache/airflow:latest",
+    "forwardPorts": [8080],
+    "postCreateCommand": "pip install -r requirements.txt",
+    "workspaceFolder": "/workspace"
+}
